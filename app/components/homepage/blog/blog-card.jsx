@@ -8,9 +8,9 @@ import { FaCommentAlt } from 'react-icons/fa';
 function BlogCard({ blog }) {
 
   return (
-    <div className="border border-[#1d293a] hover:border-[#464c6a] transition-all duration-500 bg-[#1b203e] rounded-lg relative group"
+    <div className="border-2 border-[#2241ada0] hover:border-[#464c6a] transition-all duration-500 bg-[#000000] rounded-lg relative group"
     >
-      <div className="h-44 lg:h-52 w-auto cursor-pointer overflow-hidden rounded-t-lg">
+      <div className="h-44 lg:h-52 w-auto cursor-pointer overflow-hidden rounded-t-lg border-2 p-3">
         <Image
           src={blog?.cover_image}
           height={1080}
